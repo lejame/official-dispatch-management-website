@@ -1,0 +1,13 @@
+.layout_container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Chiều cao toàn màn hình */
+}
+
+.layout_content {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100%; /* Chiều cao toàn màn hình */
+    background-color: #f4f6f9; /* Màu nền */
+}
